@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper navegadorlg"> 
+            <a href="#" class="brand-logo right">
+                <img class="logo" src="img/imgVolkswagenlg.jpg" alt="">
+            </a>
+
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a class="fuente" href="sass.html">Diseños</a></li>
+                <li><a class="fuente" href="badges.html">Modelos</a></li>
+                <li><a class="fuente" href="collapsible.html">Reembolso</a></li>
+              </ul>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img class="autos" src="img/Camineta.jpg" alt="" srcset=""></a>
+                    <a class="carousel-item" href="#two!"><img class="autos" src="img/VW-Touran-3.jpg" alt="" srcset=""></a>
+                    <a class="carousel-item" href="#three!"><img class="autos" src="img/images.jpg" alt="" srcset=""></a>
+         </div>
+         <div>
+            <img src="img/ThomasShafer.jpg" alt="" srcset="">
+         </div>
+    </div> 
+
+>
+           
+    
+    
+    
+    
+<div class="conteiner">
+         <div class="row">
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image">
+          <img class="auto-tarjeta" src="img/camioneta3.jpg">
+          <span class="card-title">Precio: 100 pesos</span>
+        </div>
+        <div class="card-content">
+          <p>Encuentra los mejores Autos acá en Volfswagen</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Link de compra </a>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image">
+          <img class="" src="img/images(1).jpg">
+          <span class="card-title">Precio: 100 pesos</span>
+        </div>
+        <div class="card-content">
+          <p>Encuentra los mejores Autos acá en Volfswagen</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Link de compra </a>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image">
+          <img class="auto" src="img/Carsipsom.jpg">
+          <span class="card-title">Precio: 100 pesos</span>
+        </div>
+        <div class="card-content">
+          <p>Encuentra los mejores Autos acá en Volfswagen</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Link de compra </a>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image">
+          <img class="" src="img/camioneta..webp">
+          <span class="card-title">Precio: 100 pesos</span>
+        </div>
+        <div class="card-content">
+          <p>Encuentra los mejores Autos acá en Volfswagen</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Link de compra </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <a id="menu" class="waves-effect waves-light btn btn-floating right down" onclick="abrirMenu()" ><i class="material-icons">menu</i></a>
+
+    <!-- Tap Target Structure -->
+    <div class="tap-target" data-target="menu">
+      <div class="tap-target-content">
+        <h5>Whatsapp</h5>
+        <p>A bunch of text</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+
+    <script>
+                
+        $(document).ready(function(){
+            
+            $('.tap-target').tapTarget(); 
+        });
+
+        function abrirMenu(){
+            $('.tap-target').tapTarget('open');
+        }
+            $('.carousel').carousel();     
+    </script>
+</body>
+</html>
